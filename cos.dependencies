@@ -1,8 +1,15 @@
 [
- {
-   "project": "CyanogenMod",
-   "repository": "lge-kernel-mako",
-   "target_path": "kernel/lge/mako",
-   "branch": "jellybean"
- }
+    {
+        "project": "CyanogenMod",
+        "repository": "lge-kernel-mako",
+        "target_path": "kernel/lge/mako",
+        "branch": "jellybean"
+    },
+
+    {
+        "project": "ChameleonOS",
+        "repository": "android_vendor_lge_mako",
+        "target_path": "vendor/lge/mako",
+        "branch": "jellybean-mr1"
+    }
 ]
