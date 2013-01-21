@@ -1,5 +1,6 @@
 [
  {
+   "project": "CyanogenMod",
    "repository": "lge-kernel-mako",
    "target_path": "kernel/lge/mako",
    "branch": "jellybean"
