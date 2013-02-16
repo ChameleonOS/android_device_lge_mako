@@ -3,7 +3,7 @@ $(call inherit-product, vendor/cos/config/gsm.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_WIDTH := 768
 
 # Inherit some common COS stuff.
 $(call inherit-product, vendor/cos/config/common_full_phone.mk)
@@ -21,7 +21,7 @@ PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:4.2/JOP40C/527662:user/release-keys PRIVATE_BUILD_DESC="occam-user 4.2 JOP40C 527662 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:4.2.1/JOP40D/533553:user/release-keys PRIVATE_BUILD_DESC="occam-user 4.2.1 JOP40D 533553 release-keys"
 
 # Enable Torch
 PRODUCT_PACKAGES += Torch
